@@ -31,7 +31,7 @@ Rails.application.routes.draw do
   #------------------------------
 
   #to-do list
-  get("/", { :controller => "user_list", :action => "index" })
+  get("/", { :controller => "todo", :action => "index" })
 
 
 
