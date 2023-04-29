@@ -10,5 +10,5 @@
 #  user_id    :integer
 #
 class Todo < ApplicationRecord
-  
+  belongs_to :user
 end
